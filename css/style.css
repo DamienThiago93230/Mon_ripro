@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+footer {
+    width: 1200px;
+    height: 300px;
+    /* position: absolute; */
+    /* bottom: 0; */
+    text-align: center;
+    background: yellow;
+    margin: auto;
+}
+
+footer img {
+    position: relative;
+    bottom: 80px;
+    right: 450px;
+}
