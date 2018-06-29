@@ -2,8 +2,9 @@ header {
     width: 1120px;
     margin: 0 auto;
     background: orangered;
-  
-    
+}
+body {
+    background: lightgreen;
 }
 .image {
     width: 270px;
@@ -11,6 +12,7 @@ header {
     border: 5px solid dodgerblue;
     border-radius:  2em;
     
+
 }
 .images {
     display: flex;
