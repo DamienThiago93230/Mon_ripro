@@ -3,6 +3,35 @@ body {
     background-image: url(../img/index.jpg);
 }
 
+nav {
+    background: #0d8add50;
+    height: 60px;
+    border-top: 10px solid #333;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 10px solid #333;
+    text-align: center;
+    padding-top: 30px;
+}
+
+nav a {
+    background: yellowgreen;
+    margin: 10px;
+    padding: 2px 10px; 
+    border-radius: 10px 0;
+    border: 2px solid #fff;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.5s; /* transition sur le a marche avec le :hover */
+}
+
+nav a:hover {
+    color: orangered;
+    background: cornflowerblue;
+}
+
 div#container {
     background-image: url(../img/texture-en-bois-de-couleur-claire-27235359.jpg);
     width: 1200px;
