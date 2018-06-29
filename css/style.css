@@ -5,7 +5,7 @@ body {
 
 div#container {
     background-image: url(../img/texture-en-bois-de-couleur-claire-27235359.jpg);
-    width: 1200px;
+    width: 100%;
     height: 1000px;
     margin: auto;
     border-radius: 50px;
@@ -27,9 +27,28 @@ ul {
     margin-left: -39px;
 }
 
-img[src="img/formation-git.png"] {/* on cible que cette image la */
-    width: 100px;
+img[src="img/formation-git.png"] /* on cible que cette image la */
+    {width: 100px;
     margin: auto;
     display: block;
-    padding: 20px;
+    padding: 20px;}
+
+header {
+    width: 1120px;
+    margin: 0 auto;
+    background: orangered;   
+}
+
+.image {
+    width: 270px;
+    height: 150px;
+    border: 5px solid dodgerblue;
+    border-radius:  2em;
+    
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
