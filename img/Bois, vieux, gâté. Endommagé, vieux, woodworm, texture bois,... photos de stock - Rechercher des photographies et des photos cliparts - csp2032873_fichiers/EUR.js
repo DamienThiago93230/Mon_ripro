@@ -1,2 +1,0 @@
-(function(globals){var django=globals.django||(globals.django={});django.CURRENCY_CODE="EUR";django.PRICE_PREFIX="€";django.PRICE_SUFFIX="";django.format_price=function(price,verbose,precision){var output=django.PRICE_PREFIX;verbose=(verbose||false);if(!isNaN(parseFloat(verbose))){precision=verbose;verbose=false;}
-precision=(precision||((django.CURRENCY_CODE=='JPY')?0:2));output+=django.format_number(price,precision);output+=django.PRICE_SUFFIX;output+=(verbose?' '+django.CURRENCY_CODE:'');return output;};globals.format_price=django.format_price;}(this));
