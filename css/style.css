@@ -1,1 +1,35 @@
+@charset "UTF-8";
+body {
+    background-image: url(../img/index.jpg);
+}
 
+div#container {
+    background-image: url(../img/texture-en-bois-de-couleur-claire-27235359.jpg);
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px black;
+}
+
+div#titre {
+    text-align: center;
+}
+
+div#titre ul li {
+    display: inline;
+    font-style: oblique;
+    font-size: 3em;
+    margin-left: 10px;
+}
+
+ul {
+    margin-left: -39px;
+}
+
+img[src="img/formation-git.png"] {/* on cible que cette image la */
+    width: 100px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
